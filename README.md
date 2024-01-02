@@ -1,5 +1,12 @@
 # A Java image downloader specifically made for Twitter(X) images and file manipulation
 
+# Application Notes:
+- To create a category, you must have in the file the name you wish for the category.
+- You do not need a number after a file to start a new category.
+- File format expected is: (Name)(Number).(Type)
+
+VERSION 1.0.0: Settings page has not been implemented yet. The button does not function.
+
 # How-To-Use
 The application's main focus is to let the user have a folder archive of different Twitter(X) Links
 ![ExampleFolder](https://github.com/DiamondBullet54/Image-Downloader/assets/93168049/7fdb3557-9500-4b69-94fe-ae8f92e5ede7)
@@ -27,10 +34,14 @@ DOWNLOAD: ![image](https://github.com/DiamondBullet54/Image-Downloader/assets/93
 SOURCE: ![image](https://github.com/DiamondBullet54/Image-Downloader/assets/93168049/770afa8e-8868-45db-a98d-af66660eec6e)
 </br>
 
+The application will create a file called persistantData.txt.
+</br>
+This file will store the folder path you last created so you don't need to input it during startup each time.
+</br>
+![image](https://github.com/DiamondBullet54/Image-Downloader/assets/93168049/ecc1ed21-6f08-4413-b6dc-f79b3f6ffca7)
+
+
 # NOTE
 <b>All images used above are not owned by me. All rights go to the original owners.</b>
 </br>
 <b>If I used your image and you wish for me to remove it, please contact me and I will do so.</b>
-</br>
-</br>
-VERSION 1.0.0: Settings page has not been implemented yet. The button does not function.
