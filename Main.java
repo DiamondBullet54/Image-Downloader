@@ -103,6 +103,12 @@ public class Main {
             System.out.println("Error getting categories: " + e.toString());
         }
 
+        //sort all categories by int value
+        categories = categories.entrySet()
+        .stream()
+        .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
+        .collect(java.util.stream.Collectors.toMap(e -> e.getKey(), e -> e.getValue(), (e1, e2) -> e2, java.util.LinkedHashMap::new));
+
         //remove all categories from the list
         frame.category.removeAllItems();
 
